@@ -13,6 +13,8 @@
     color: #DEDEDE;
     background-image: url(./bg_top.png);
     background-repeat: no-repeat;
+    font-size: 16pt;
+    font-family: monospace;
 }
 
 a {
@@ -29,6 +31,16 @@ a {
     padding: 10px;
 }
 
+.block {
+    padding: 10px;
+    margin-bottom: 4vh;
+}
+
+.link-block {
+    margin-top: 0.7vh;
+    margin-bottom: 0.7vh;
+}
+
 </style>
 
 </head>
@@ -36,28 +48,118 @@ a {
 <body class="main">
 <h1 class="section-header" style="margin-top: 20vh; min-top: 20vh">Angouri</h1>
 
-It is an organization for open-source software enthusiasts. We genuinely think that OSS is our real bright future. <a href="https://github.com/asc-community">GitHub</a>
+It is an organization for open-source software enthusiasts. We genuinely think that OSS is our real bright future. There is no requirement to start contributing to our projects. Moreover, by contributing to them, you contribute to humanity.
+<br>
+<div class="link-block">
+<a href="https://github.com/asc-community">GitHub</a> ·
+<a href="https://discord.gg/VWwtVdsRMp">Discord</a>
+</div>
+
+<br>
+<hr>
 
 <h2 class="section-header">Our projects</h2>
 
-<a href="https://am.angouri.org" class="ref-link">AngouriMath</a>
-(<a href="https://github.com/asc-community/AngouriMath">GitHub</a>)
+<div class="block">
+    <h3>AngouriMath</h3>
+    <a name="angourimath"></a>
+    AngouriMath is a computer algebra library for basic and complex expression manipulation, be that arithmetic, calculus, or printing in LaTeX, parsing from string, and many more. It might be convenient to use in industrial spheres thanks to such features as the ability to interrupt a computation.
+    <br>
+    <div class="link-block">
+    <a href="https://am.angouri.org">Website</a> ·
+    <a href="https://github.com/asc-community/AngouriMath">GitHub</a>
+    </div>
+</div>
 
-· <a href="https://mx.angouri.org" class="ref-link">MxEngine</a>
-(<a href="https://github.com/asc-community/MxEngine">GitHub</a>)
+<div class="block">
+    <h3>MxEngine</h3>
+    <a name="mxengine"></a>
+    MxEngine is an educational modern-C++ general-purpose 3D game engine. Right now MxEngine is developed only by me, <a href="https://github.com/MomoDeve">#Momo</a>, but any contributions are welcome and will be reviewed. Fow now MxEngine supports OpenGL as graphic API and targeting x64 only.
+    <br>
+    <div class="link-block">
+    <a href="https://github.com/asc-community/MxEngine">GitHub</a>
+    </div>
+</div>
 
+<div class="block">
+    <h3>GenericTensor</h3>
+    <a name="generictensor"></a>
+    It is the only fully-implemented generic-tensor library for C#. Allows to work with tensors of custom types.
+    <br>
+    <div class="link-block">
+    <a href="https://github.com/asc-community/GenericTensor">GitHub</a>
+    </div>
+</div>
+
+<div class="block">
+    <h3>MonoBind</h3>
+    <a name="monobind"></a>
+    Monobind is a lightweight header-only library that exposes C++ types in C# and vice versa, mainly to create C# bindings of existing C++ code.
+    <br>
+    <div class="link-block">
+    <a href="https://github.com/asc-community/monobind">GitHub</a>
+    </div>
+</div>
+
+<div class="block">
+    <h3>DotnetBenchmarks</h3>
+    <a name="dotnetbenchmarks"></a>
+    In this repo we are collecting benchmarks for different situations, as well as some thoughts and articles for developers about improving their software's performance.
+    <br>
+    <div class="link-block">
+    <a href="https://github.com/asc-community/dotnet-benchmarks">GitHub</a>
+    </div>
+</div>
+
+<br>
+<hr>
 
 <h2 class="section-header">About Angouri's people</h2>
 
-MomoDeve
-(<a href="https://momodeve.github.io">website</a>, <a href="https://github.com/MomoDeve">GitHub</a>)
+<div class="block">
+    <h3>MomoDeve</h3>
+    <a name="momodeve"></a>
+    I’ve been programming C++ and C# for around three years, mainly working on MxEngine game engine during the last year.
+    <br>
+    <div class="link-block">
+    <a href="https://momodeve.github.io/">Website</a> ·
+    <a href="https://github.com/MomoDeve">GitHub</a>
+    </div>
+</div>
 
-·
-WhiteBlackGoose 
-(<a href="https://github.com/WhiteBlackGoose">GitHub</a>, <a href="https://twitter.com/WhiteBlackGoose">Twitter</a>)
-
-
+<div class="block">
+    <h3>WhiteBlackGoose</h3>  
+    <a name="whiteblackgoose"></a>
+    I mainly work on our symbolic algebra library <a href="https://am.angouri.org/">AngouriMath</a> (under MIT). I also created a generic tensor library <a href="https://github.com/asc-community/GenericTensor">GenericTensor</a>. I'm also <a href="https://github.com/MomoDeve">MomoDeve</a>'s friend.
+    <br>
+    <div class="link-block">
+    <a href="https://twitter.com/WhiteBlackGoose">Twitter</a> ·
+    <a href="https://github.com/WhiteBlackGoose">GitHub</a> ·
+    <a href="mailto:whiteblackgoose@asc-community.org">E-Mail</a>
+    </div>
+</div>
 
 </body>
 
+<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+Angouri organization 2019-2021
+</footer>
+
 </html>
+
+
+<!--
+template for blocks:
+
+<div class="block">
+    <h3>Title</h3>
+    <a name="title"></a>
+    Description
+    <br>
+    <div class="link-block">
+    <a href="">Linktitle</a>
+    </div>
+</div>
+-->
