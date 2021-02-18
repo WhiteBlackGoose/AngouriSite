@@ -4,10 +4,10 @@ It is an organization for open-source software enthusiasts. We genuinely think t
 
 ## Our projects
 
-- <a href="am.angouri.org">AngouriMath</a>.
-- <a href="mx.angouri.org">MxEngine</a>.
+- <a href="http://am.angouri.org">AngouriMath</a>.
+- <a href="http://mx.angouri.org">MxEngine</a>.
 
 ## Personal blogs
 
-- <a href="momodeve.angouri.org">MomoDeve</a>
-- <a href="wbg.angouri.org">WhiteBlackGoose</a>
+- <a href="http://momodeve.angouri.org">MomoDeve</a>
+- <a href="http://wbg.angouri.org">WhiteBlackGoose</a>
